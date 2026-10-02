@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+</head>
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form action="/register"
+method="POST"
+enctype="multipart/form-data">
+
+<label for="name">Name:</label>
+<input id="name" type="text" name="name" required><br><br>
+
+<label for="email">Email:</label>
+<input id="email" type="email" name="email" required><br><br>
+
+<label for="course">Course:</label>
+<input id="course" type="text" name="course" required><br><br>
+
+<label for="photo">Photo:</label>
+<input id="photo" type="file" name="photo" accept=".jpg,.jpeg,.png,.webp" required><br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration complete</title>
+</head>
+<body>
+    <main>
+        <h1>Student registered successfully</h1>
+        <p>Your private photo link expires in five minutes.</p>
+        <p><a href="{{ photo_url }}" rel="noreferrer">View uploaded photo</a></p>
+        <p><a href="{{ url_for('home') }}">Register another student</a></p>
+    </main>
+</body>
+</html>
